@@ -1,21 +1,8 @@
-# Hello world javascript action
+# CREATE VERSION TAGS FROM YEAR MONTH AND RELEASES COUNT
 
-Esta ação imprime "Hello World" ou "Hello" + o nome de uma pessoa a ser cumprimentada no log.
-
-## Inputs
-
-## `who-to-greet`
-
-**Required** The name of the person to greet. Padrão `"World"`.
-
-## Outputs
-
-## `time`
-
-The time we greeted you.
+Esta ação calculara o TAG da versão por Ano, mês e o sequencial do  para o repositório.
+Após criar esta tag, ela substituirá a tag `latest` com a nova criada.
 
 ## Exemplo de uso
 
-usa: ações/hello-world-javascript-action@v1.1
-com:
-  quem cumprimentar: 'Mona, a Octocat'
+use: pjmalva/automate-tag-version-numeration@v1.1
